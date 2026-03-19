@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Ceramic Pvt Ltd - Premium Ceramic Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Theme Switcher Overlay -->
+    <div id="themeOverlay" class="theme-overlay">
+        <div class="theme-content">
+            <h3>Select Festival Theme</h3>
+            <div class="theme-buttons">
+                <button class="theme-btn default-theme" data-theme="default">
+                    <i class="fas fa-sun"></i> Default
+                </button>
+                <button class="theme-btn holi-theme" data-theme="holi">
+                    <i class="fas fa-palette"></i> Holi
+                </button>
+                <button class="theme-btn diwali-theme" data-theme="diwali">
+                    <i class="fas fa-diwali"></i> Diwali
+                </button>
+                <button class="theme-btn navratri-theme" data-theme="navratri">
+                    <i class="fas fa-drum"></i> Navratri
+                </button>
+                <button class="theme-btn christmas-theme" data-theme="christmas">
+                    <i class="fas fa-tree"></i> Christmas
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>ABC Ceramic</h2>
+                    <span>Pvt Ltd</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <select id="themeSwitcher" class="theme-switcher">
+                        <option value="default">Default Theme</option>
+                        <option value="holi">Holi Festival</option>
+                        <option value="diwali">Diwali Lights</option>
+                        <option value="navratri">Navratri Vibes</option>
+                        <option value="christmas">Christmas Magic</option>
+                    </select>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <h1 class="hero-title">
+                    Premium Ceramic Solutions
+                    <span class="gradient-text">for Elegant Living</span>
+                </h1>
+                <p class="hero-subtitle">Transform your spaces with our luxury ceramic collections. Where artistry meets functionality.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Explore Collection</a>
+                    <a href="#contact" class="btn btn-secondary">Get Quote</a>
+                </div>
+            </div>
+            <div class="hero-scroll" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About ABC Ceramic</h2>
+                <p>Excellence in Every Tile</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Ceramic Showroom">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>25+ Years of Ceramic Excellence</h3>
+                    <p>ABC Ceramic Pvt Ltd is a pioneer in premium ceramic solutions, blending Italian craftsmanship with Indian aesthetics. Our collections feature the finest porcelain, ceramic tiles, and designer fittings that elevate every space.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h4>500+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Premium Collections</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Collections</h2>
+                <p>Discover Luxury in Every Detail</p>
+            </div>
+            <div class="products-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80" alt="Marble Floor Tiles">
+                    <div class="product-overlay">
+                        <h3>Marble Elegance</h3>
+                        <p>Floor Tiles</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76bbb17e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Wall Tiles">
+                    <div class="product-overlay">
+                        <h3>Modern Mosaic</h3>
+                        <p>Wall Tiles</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Bathroom Ceramics">
+                    <div class="product-overlay">
+                        <h3>Spa Serenity</h3>
+                        <p>Bathroom Collection</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1602940659805-770d1b3b6e7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Kitchen Backsplash">
+                    <div class="product-overlay">
+                        <h3>Kitchen Luxe</h3>
+                        <p>Backsplash Tiles</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80" alt="Porcelain Slabs">
+                    <div class="product-overlay">
+                        <h3>Porcelain Grande</h3>
+                        <p>Large Format</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76bbb17e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Designer Series">
+                    <div class="product-overlay">
+                        <h3>Artisan Series</h3>
+                        <p>Designer Collection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <p>Complete Ceramic Solutions</p>
+            </div>
+            <div class="services-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Installation</h3>
+                    <p>Professional installation by certified experts</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Design Consultation</h3>
+                    <p>Expert guidance for perfect space planning</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Pan India Delivery</h3>
+                    <p>Fast and safe delivery across India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get In Touch</h2>
+                <p>Let's Create Something Beautiful Together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9876543210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>abcceramic123@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Ceramic Hub, Mumbai, MH 400001</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ABC Ceramic</h3>
+                    <p>Premium Ceramic Solutions for Elegant Living</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ABC Ceramic Pvt Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
